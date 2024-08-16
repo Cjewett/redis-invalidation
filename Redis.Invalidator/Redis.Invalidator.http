@@ -1,0 +1,6 @@
+@Redis.Invalidator_HostAddress = http://localhost:5149
+
+GET {{Redis.Invalidator_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
